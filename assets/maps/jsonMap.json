@@ -1,0 +1,181 @@
+[
+  {
+    "building": 
+    [
+      {
+        "name": "advisor",
+        "numbers": 3,
+        "rooms": [
+          {
+            "bed": "sidecar-logs:8.0.4",
+            "name": "sidecar-log",
+            "servers": [
+              {
+                "level": "critical",
+                "name": "limits",
+                "racks": "medium"
+              },
+              {
+                "level": "critical",
+                "name": "request",
+                "racks": "medium"
+              }
+            ]
+          }
+        ],
+        "status": "critical"
+      },
+      {
+        "name": "advisor",
+        "numbers": 3,
+        "rooms": [
+          {
+            "bed": "sidecar-logs:8.0.4",
+            "name": "sidecar-log",
+            "servers": [
+              {
+                "level": "critical",
+                "name": "limits",
+                "racks": "medium"
+              },
+              {
+                "level": "critical",
+                "name": "request",
+                "racks": "medium"
+              }
+            ]
+          },
+          {
+            "bed": "sidecar-logs:8.0.4",
+            "name": "sidecar-proxy",
+            "servers": [
+              {
+                "level": "low",
+                "name": "limits",
+                "racks": "small"
+              },
+              {
+                "level": "medium",
+                "name": "request",
+                "racks": "medium"
+              }
+            ]
+          },
+          {
+            "bed": "sidecar-logs:8.0.4",
+            "name": "advisor",
+            "servers": [
+              {
+                "level": "high",
+                "name": "limits",
+                "racks": "medium"
+              },
+              {
+                "level": "low",
+                "name": "request",
+                "racks": "big"
+              }
+            ]
+          }
+        ],
+        "status": "critical"
+      },
+      {
+        "name": "advisor",
+        "numbers": 3,
+        "rooms": [
+          {
+            "bed": "sidecar-logs:8.0.4",
+            "name": "sidecar-log",
+            "servers": [
+              {
+                "level": "critical",
+                "name": "limits",
+                "racks": "medium"
+              },
+              {
+                "level": "critical",
+                "name": "request",
+                "racks": "medium"
+              }
+            ]
+          },
+          {
+            "bed": "sidecar-logs:8.0.4",
+            "name": "sidecar-proxy",
+            "servers": [
+              {
+                "level": "low",
+                "name": "limits",
+                "racks": "small"
+              },
+              {
+                "level": "medium",
+                "name": "request",
+                "racks": "medium"
+              }
+            ]
+          },
+          {
+            "bed": "sidecar-logs:8.0.4",
+            "name": "advisor",
+            "servers": [
+              {
+                "level": "high",
+                "name": "limits",
+                "racks": "medium"
+              },
+              {
+                "level": "low",
+                "name": "request",
+                "racks": "big"
+              }
+            ]
+          }
+        ],
+        "status": "critical"
+      },
+      {
+        "name": "advisor",
+        "numbers": 3,
+        "rooms": [
+          {
+            "bed": "sidecar-logs:8.0.4",
+            "name": "sidecar-log",
+            "servers": [
+              {
+                "level": "critical",
+                "name": "limits",
+                "racks": "medium"
+              },
+              {
+                "level": "critical",
+                "name": "request",
+                "racks": "medium"
+              }
+            ]
+          },
+          {
+            "bed": "sidecar-logs:8.0.4",
+            "name": "advisor",
+            "servers": [
+              {
+                "level": "high",
+                "name": "limits",
+                "racks": "medium"
+              },
+              {
+                "level": "low",
+                "name": "request",
+                "racks": "big"
+              }
+            ]
+          }
+        ],
+        "status": "critical"
+      }
+    ],
+    "id": "Opencity",
+    "name": "openapi"
+  }
+]
